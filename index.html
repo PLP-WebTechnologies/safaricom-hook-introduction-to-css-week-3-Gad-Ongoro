@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics</title>
+    
+    <!-- Internal CSS -->
+    <style>
+        h1 {
+            text-align: center;
+            font-size: 32px;
+            color: darkblue;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .special-section {
+            background-color: lightyellow;
+            padding: 10px;
+        }
+
+        .card {
+            background-color: #fff;
+            padding: 20px;
+            margin: 30px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h2 {
+            font-family: 'Arial', sans-serif;
+            font-weight: bold;
+            font-size: 24px;
+            color: darkgreen;
+        }
+
+        .card p {
+            font-family: 'Verdana', sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: justify;
+            color: #333;
+        }
+
+        #uniqueElement {
+            border: 2px solid #333;
+            padding: 10px;
+        }
+
+        .special-section {
+            background-color: lightblue;
+            padding: 15px;
+        }
+    </style>
+    
+    <!-- External CSS file link -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Welcome to My Web Page</h1>
+    <p>This is a paragraph that will be styled with inline CSS.</p>
+
+    <!-- Inline CSS -->
+    <p style="color: red;">This text has an inline style that changes the text color to red.</p>
+
+    <div id="uniqueElement">
+        <p>This is a paragraph inside a div with an ID.</p>
+    </div>
+
+    <div class="special-section">
+        <p>This section has a specific background color.</p>
+    </div>
+
+    <!-- Card component -->
+    <div class="card">
+        <h2>Card Title</h2>
+        <p>This is a card component. It has a title and description, with padding inside the card, a margin around it, and a subtle border.</p>
+    </div>
+
+    <!-- Anchor tag -->
+    <p>Click <a href="https://www.google.com">here</a> to visit an external website.</p>
+
+</body>
+</html>
